@@ -1,10 +1,11 @@
 import { initialTodos, validationConfig } from "../utils/constants.js";
+import Todo from "../components/Todo.js";
 
 const addTodoButton = document.querySelector(".button_action_add");
 const addTodoPopup = document.querySelector("#add-todo-popup");
 const addTodoForm = addTodoPopup.querySelector(".popup__form");
 const addTodoCloseBtn = addTodoPopup.querySelector(".popup__close");
-const todoTemplate = document.querySelector("#todo-template");
+//const todoTemplate = document.querySelector("#todo-template");
 const todosList = document.querySelector(".todos__list");
 
 const openModal = (modal) => {
@@ -17,7 +18,9 @@ const closeModal = (modal) => {
 
 // The logic in this function should all be handled in the Todo class.
 const generateTodo = (data) => {
-  const todoElement = todoTemplate.content
+  const todo = new Todo(data, "#todo-template");
+  const todoElement = todo.getView();
+  /* const todoElement = todoTemplate.content
     .querySelector(".todo")
     .cloneNode(true);
   const todoNameEl = todoElement.querySelector(".todo__name");
@@ -47,7 +50,7 @@ const generateTodo = (data) => {
 
   todoDeleteBtn.addEventListener("click", () => {
     todoElement.remove();
-  });
+  });*/
 
   return todoElement;
 };
