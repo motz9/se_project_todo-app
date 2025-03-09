@@ -1,10 +1,10 @@
-# My Activity Tracker
+# My Goals Tracker
 
 This is an activity tracker that will keep you on track for your goals. You can also set a due date so you can stay on track.
 
 ## Functionality
 
-You can add or delete items, set due dates for your items and check them off when completed.
+You can set your goals by adding them, delete them if they change, and check them off once you comeplete them.
 
 ## Technology
 
