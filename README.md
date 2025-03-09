@@ -1,14 +1,17 @@
-# Simple Todo App
+# My Activity Tracker
 
-Give a brief description of the project here. Feel free to give it a different name.
+This is a todo app that lets you add and delete items that you may need to get done. You can also set a due date so you can stay on track.
 
 ## Functionality
 
-Give a more detailed explanation of the project and its functionality.
+You can add or delete items, set due dates for your items and check them off when completed.
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+HTML/CSS
+JavaScript
+OOP
+![Todo App](<Screenshot 2025-03-09 113226.png>)
 
 ## Deployment
 
