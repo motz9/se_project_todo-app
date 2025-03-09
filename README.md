@@ -9,12 +9,15 @@ You can add or delete items, set due dates for your items and check them off whe
 ## Technology
 
 HTML/CSS
+BEM methodology
 JavaScript
-OOP
+OOP principles
+Module system
+UUID for unique IDs
 ![Todo App](<Screenshot 2025-03-09 113226.png>)
 
 ## Deployment
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+(https://motz9.github.io/se_project_todo-app/)
