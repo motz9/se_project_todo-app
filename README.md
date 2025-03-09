@@ -1,6 +1,6 @@
 # My Activity Tracker
 
-This is a todo app that lets you add and delete items that you may need to get done. You can also set a due date so you can stay on track.
+This is an activity tracker that will keep you on track for your goals. You can also set a due date so you can stay on track.
 
 ## Functionality
 
