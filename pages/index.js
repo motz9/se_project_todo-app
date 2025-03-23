@@ -58,13 +58,11 @@ const generateTodo = (data) => {
 
 addTodoButton.addEventListener("click", () => {
   addTodoPopup.open();
-  newTodoValidator.resetValidation();
 });
 
-initialTodos.forEach((item) => {
-  const todo = generateTodo(item);
-  section.addItem(todo);
-});
+section.renderItems();
+const todo = generateTodo(item);
+section.addItem(todo);
 
 const newTodoValidator = new FormValidator(validationConfig, addTodoForm);
 newTodoValidator.enableValidation();

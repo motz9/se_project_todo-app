@@ -7,6 +7,7 @@ class Popup {
 
   open() {
     this._popupElement.classList.add("popup_visible");
+    document.addEventListener("keydown", this._handleEscapeClose);
   }
 
   close() {
@@ -24,7 +25,6 @@ class Popup {
     this._popupCloseButton.addEventListener("click", () => {
       this.close();
     });
-    document.addEventListener("keydown", this._handleEscapeClose);
     this._popupElement.addEventListener("click", (evt) => {
       if (evt.target === this._popupElement) {
         this.close();
