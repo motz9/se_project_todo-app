@@ -39,8 +39,6 @@ const section = new Section({
   containerSelector: ".todos__list",
 });
 
-addTodoPopup.setEventListeners();
-
 function handleCheck(completed) {
   todoCounter.updateCompleted(completed);
 }
