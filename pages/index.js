@@ -61,8 +61,6 @@ addTodoButton.addEventListener("click", () => {
 });
 
 section.renderItems();
-const todo = generateTodo(item);
-section.addItem(todo);
 
 const newTodoValidator = new FormValidator(validationConfig, addTodoForm);
 newTodoValidator.enableValidation();
