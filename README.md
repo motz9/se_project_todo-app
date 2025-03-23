@@ -4,7 +4,7 @@ This is an activity tracker that will keep you on track for your goals. You can 
 
 ## Functionality
 
-You can set your goals by adding them, delete them if they change, and check them off once you comeplete them.
+You can set your goals by adding them, delete them if they change, and check them off once you complete them.
 
 ## Technology
 
